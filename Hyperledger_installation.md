@@ -1,3 +1,11 @@
+Prerequisite
+1) docker
+2) docker-compose
+3) golang
+4) python
+5) jq
+6) node(optional)
+
 #this command will download a file named as install-fabric.sh
 
 curl -sSLO https://raw.githubusercontent.com/hyperledger/fabric/main/scripts/install-fabric.sh && chmod +x install-fabric.sh
