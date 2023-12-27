@@ -13,3 +13,6 @@ sudo nano ~/.bashrc
 export PATH=$PATH:/root/fabric-samples/bin
 
 source ~/.bashrc
+
+#incase of using fabric samples to bring the network up try using this
+sudo ./network.sh up createChannel -ca -c mychannel -s couchdb
