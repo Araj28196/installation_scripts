@@ -1,3 +1,7 @@
+sudo snap info go
+sudo snap install go --channel=1.16/stable --classic
+
+
 cd ~
 curl -OL https://golang.org/dl/go1.18.linux-amd64.tar.gz
 sha256sum go1.18.linux-amd64.tar.gz
