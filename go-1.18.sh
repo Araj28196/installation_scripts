@@ -1,5 +1,6 @@
 sudo snap info go
 sudo snap install go --channel=1.16/stable --classic
+sudo snap install go --channel=1.23/stable --classic
 
 
 cd ~
