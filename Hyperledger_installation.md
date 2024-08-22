@@ -24,6 +24,8 @@ source ~/.bashrc
 
 #incase of using fabric samples to bring the network up try using this
 
+cd fabric-samples/test-network
+
 sudo ./network.sh up createChannel -ca -c mychannel -s couchdb
 
-sudo ./network.sh deployCC -ccn basic -ccp ../asset-transfer-basic/chaincode-go -ccl go
+sudo ./network.sh deployCC -ccn basic -ccp ../asset-transfer-ledger-queries/chaincode-go -ccl go
