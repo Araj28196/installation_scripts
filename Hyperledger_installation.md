@@ -29,3 +29,6 @@ cd fabric-samples/test-network
 sudo ./network.sh up createChannel -ca -c mychannel -s couchdb
 
 sudo ./network.sh deployCC -ccn basic -ccp ../asset-transfer-ledger-queries/chaincode-go -ccl go
+
+#for checking docker status with format
+docker ps --format '{{ .ID }}\t{{ .Names }}\t{{.Ports}}'
